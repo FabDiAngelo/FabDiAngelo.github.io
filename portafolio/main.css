@@ -1,0 +1,82 @@
+* {
+    color: #7cfa68;
+    font-family: 'Roboto Mono', monospace;
+}
+body{
+    margin: 0 10vw;
+    background-color: #3b55a4;
+    overflow: hidden;
+}
+main{
+    margin-top: 20vh;
+}
+h1{
+    padding: 0;
+    font-size: 7vw;
+    font-weight: bolder;
+    margin: 0;
+    background: none;
+    text-shadow: 8px 3px 0px #5b3ba4;
+}
+#mainTitle:hover{
+    color: #7cfa68;
+    text-shadow: none;
+}
+.sobreTitulo{
+    padding: 0;
+    margin-bottom: -2vw;
+    font-size: 3vw;
+}
+p{
+    font-size: 2rem;
+    width: 70vw;
+}
+.importante{
+    font-weight: bolder;
+    color: #2fff0a;
+}
+nav{
+    text-align: center;
+    margin-top: 15vh;
+}
+a.nav{
+    padding: 2.5vh 2.5vw;
+    border: #1c0946 solid 3px;
+    margin: 0 10vw;
+    background: #5b3ba4;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: inset -8px -8px 0px -3px #1c0946;
+}
+a.nav:hover{
+    box-shadow: inset 8px 8px 0px -3px #1c0946;
+}
+header{
+    top: 0;
+    margin-left: -10vw;
+    position:fixed;
+    display:flex;
+    justify-content:flex-end;
+    align-items:center;
+    width:100%;
+    height:10vh;
+    background:#1c0946;
+    z-index:5;
+}
+.tituloBajo{
+    margin-top: 10vh;
+}
+a.home{
+    margin: 0 2.5vw 0 0;
+    padding: 1.5vh 1.5vw;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+#avatar{
+    height: 100vh;
+    position: absolute;
+    bottom: 0;
+    right: -10vw;
+    z-index: -10;
+    overflow: hidden;
+}
